@@ -474,9 +474,7 @@
         <module name="SuperClone"/>
 
         <!-- Disallow catcing exception base classes -->
-        <module name="IllegalCatch">
-            <property name="severity" value="error"/>
-        </module>
+        <module name="IllegalCatch"/>
 
         <!-- Disallow throwing exception base classes -->
         <module name="IllegalThrows"/>
