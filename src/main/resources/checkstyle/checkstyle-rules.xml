@@ -184,10 +184,6 @@
             <property name="ignoreInlineTags" value="false"/>
         </module>
 
-        <!-- Checks for imports                              -->
-        <!-- See http://checkstyle.sf.net/config_import.html -->
-        <module name="AvoidStarImport"/>
-
         <module name="OneTopLevelClass"/>
 
         <module name="NoLineWrap"/>
@@ -438,7 +434,9 @@
         <module name="InterfaceIsType"/>
 
         <!-- Make sure only static finals are public -->
-        <module name="VisibilityModifier"/>
+        <module name="VisibilityModifier">
+            <property name="protectedAllowed" value="true"/>
+        </module>
 
         <!-- Miscellaneous other checks.                   -->
         <!-- See http://checkstyle.sf.net/config_misc.html -->
