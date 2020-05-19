@@ -1,6 +1,11 @@
-[![Build Status](https://travis-ci.org/cooldatasoft/build-tools.svg?branch=develop)](https://travis-ci.org/cooldatasoft/build-tools)
-
-
 # build-tools
 
 Contains checkstyle rules for cooldatasoft
+
+# Check Latest Dependency Version
+
+    mvn versions:display-dependency-updates
+
+# Release
+
+    mvn -DperformRelease=true clean compile deploy
