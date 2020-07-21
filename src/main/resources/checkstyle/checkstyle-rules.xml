@@ -363,6 +363,10 @@
             <property name="severity" value="error"/>
         </module>
 
+        <module name="RequireThis">
+            <property name="severity" value="error"/>
+        </module>
+
         <module name="RedundantModifier"/>
 
         <!-- Checks for blocks. You know, those {}'s         -->
@@ -417,6 +421,7 @@
         <module name="SimplifyBooleanExpression"/>
 
         <module name="SimplifyBooleanReturn"/>
+
 
         <!-- Checks for class design                         -->
         <!-- See http://checkstyle.sf.net/config_design.html -->
