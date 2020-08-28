@@ -364,6 +364,8 @@
         </module>
 
         <module name="RequireThis">
+            <property name="checkFields" value="true"/>
+            <property name="validateOnlyOverlapping" value="true"/>
             <property name="severity" value="error"/>
         </module>
 
